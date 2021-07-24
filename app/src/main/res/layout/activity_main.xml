@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/running_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/running"
+            android:background="@color/buttonColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"/>
+        <Button
+            android:id="@+id/swimming_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/swimming"
+            android:background="@color/buttonColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"/>
+        <Button
+            android:id="@+id/bicycling_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cycling"
+            android:background="@color/buttonColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"/>
+        <Button
+            android:id="@+id/core_only_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/core_only"
+            android:background="@color/buttonColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Workouts</string>
+    <string name="running">Running</string>
+    <string name="swimming">Swimming</string>
+    <string name="cycling">Cycling</string>
+    <string name="core_only">Core</string>
+    <string name="choose">Choose Your Workout Type</string>
+    <string name="generate">Generate</string>
+    <string name="create">Create Your Workout</string>
+    <string name="display">Enjoy Your Workout</string>
+    <string name="time">Time: </string>
+    <string name="difficulty">Difficulty: </string>
+    <string name="hint_label">This can be adjusted later</string>
+    <string name="easier">Easier</string>
+    <string name="harder">Harder</string>
+    <string name="change">New Activities</string>
+    <string name="restart">New Workout</string>
+
+
+    <string-array name="times">
+        <item>Select Time</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>45 min</item>
+        <item>60 min</item>
+        <item>75 min</item>
+        <item>90 min</item>
+    </string-array>
+
+    <string-array name="difficulties">
+        <item>Select Difficulty</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Spartan</item>
+    </string-array>
+</resources>
